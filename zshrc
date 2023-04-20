@@ -150,3 +150,11 @@ i() { cd "$(cat ~/.save_dir)" ; }
 # mhn 2011.7.19
 
 export PATH="/usr/local/opt/qt/bin:$PATH"
+
+# Safe reboot
+reboot() {
+   printf "Reboot is about to happen , press enter "
+   read
+   /sbin/reboot
+   # or for those who like to use systemd way, you can do systemctl reboot
+}
