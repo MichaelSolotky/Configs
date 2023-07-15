@@ -77,24 +77,24 @@ alias 'clone=hg clone'
 # -------------------------------------------------------------------
 # Git
 # -------------------------------------------------------------------
-alias ga='git add'
-alias gp='git push'
-alias gl='git log'
-alias gs='git status'
-alias gd='git diff'
-alias gm='git commit -m'
-alias gma='git commit -am'
-alias gb='git branch'
-alias gc='git checkout'
-alias gra='git remote add'
-alias grr='git remote rm'
-alias gpu='git pull'
-alias gcl='git clone'
-alias gta='git tag -a -m'
-alias gf='git reflog'
+# alias "g a"='git add'
+alias "g p"='git push'
+alias "g l"='git log'
+alias "g s"='git status'
+alias "g d"='git diff'
+alias "g m"='git commit -m'
+alias "g ma"='git commit -am'
+alias "g b"='git branch'
+alias "g c"='git checkout'
+alias "g ra"='git remote add'
+alias "g rr"='git remote rm'
+alias "g pu"='git pull'
+alias "g cl"='git clone'
+alias "g ta"='git tag -a -m'
+alias "g f"='git reflog'
 
 # leverage an alias from the ~/.gitconfig
-alias gh='git hist'
+alias "g h"='git hist'
 
 # -------------------------------------------------------------------
 # Oddball stuff
